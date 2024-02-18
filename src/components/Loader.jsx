@@ -1,6 +1,6 @@
 import { LineWave } from 'react-loader-spinner';
 
-export const Loading = () => {
+const Loader = () => {
   return (
     <LineWave
         height="150"
@@ -16,3 +16,5 @@ export const Loading = () => {
     />
   );
 };
+
+export default Loader; 
