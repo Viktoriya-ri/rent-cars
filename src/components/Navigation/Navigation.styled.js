@@ -17,3 +17,17 @@ align-items: center;
     }
 }
 `;
+
+export const WrapUl = styled.ul`
+display: flex;
+  gap: 16px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  color: white;
+  li:hover,
+  li:focus {
+    color: black;
+  }
+`;

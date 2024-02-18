@@ -1,0 +1,1 @@
+export const selectAllFavoriteCars = state => state.favorites.items;

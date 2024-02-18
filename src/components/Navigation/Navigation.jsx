@@ -1,12 +1,21 @@
 import { NavLink } from "react-router-dom";
-import { WrapNavigation } from "./Navigation.styled";
+import { WrapNavigation, WrapUl } from "./Navigation.styled";
 
 export const Navigation = () => {
     return (
         <WrapNavigation>
-            <NavLink to="/">Home</NavLink>
-            <NavLink to="/catalog">Catalog</NavLink>
-            <NavLink to="/favorites">Favorites</NavLink>
+            <WrapUl>
+                <li>
+                  <NavLink to="/">Home</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/catalog">Catalog</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/favorites">Favorites</NavLink>
+                </li>
+            </WrapUl>
+   
         </WrapNavigation>
     );
 };
